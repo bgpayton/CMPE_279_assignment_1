@@ -112,5 +112,5 @@ ifeq ($(CONFIG_X86_64),y)
 	obj-y				+= vsmp_64.o
 endif
 
-obj-y += add2.o
+obj-y += mysyscalls.o
 
